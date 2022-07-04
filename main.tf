@@ -1,4 +1,4 @@
-resource "aws_vpc" "terra_vpc" { # Custom VPC
+resource "aws_vpc" "terra_vpc" { # Custom VPC by quangdvn
   cidr_block           = var.vpc_cidr_block
   enable_dns_hostnames = true
 
